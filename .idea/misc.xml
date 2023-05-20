@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/chain/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/state/pom.xml" />
+        <option value="$PROJECT_DIR$/adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/builder/pom.xml" />
+        <option value="$PROJECT_DIR$/command/pom.xml" />
+        <option value="$PROJECT_DIR$/compose/pom.xml" />
+        <option value="$PROJECT_DIR$/factory/pom.xml" />
+        <option value="$PROJECT_DIR$/memento/pom.xml" />
+        <option value="$PROJECT_DIR$/visitor/pom.xml" />
+        <option value="$PROJECT_DIR$/iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/observer/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/decorator/pom.xml" />
+        <option value="$PROJECT_DIR$/flyweight/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/ChatMediator/pom.xml" />
+        <option value="$PROJECT_DIR$/template-method/pom.xml" />
+        <option value="$PROJECT_DIR$/abstract-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/interpreter-pattern/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
