@@ -1,6 +1,6 @@
 import com.google.gson.Gson;
 
-public class Employee{
+public class Employee implements Cloneable{
     private String name;
     private Car car;
     public String getName() {
@@ -25,5 +25,10 @@ public class Employee{
         System.out.println(json);
         Employee cloneObject = gson.fromJson(json, Employee.class);
         return cloneObject;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

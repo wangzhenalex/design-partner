@@ -8,5 +8,12 @@ public class App {
         Employee cloneKing = (Employee) king.deepClone();
         System.out.println("King == CloneKing:" + (king == cloneKing));
         System.out.println("King.car == CloneKing.car:" + (king.getCar() == cloneKing.getCar()));
+
+        System.out.println("=====================================");
+        Employee clone = (Employee)king.clone();
+        System.out.println("King == CloneKing:" + (king == clone));
+        System.out.println("King.car == CloneKing.car:" + (king.getCar() == clone.getCar()));
+
+
     }
 }
