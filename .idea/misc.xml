@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/template-method/pom.xml" />
         <option value="$PROJECT_DIR$/abstract-factory/pom.xml" />
         <option value="$PROJECT_DIR$/interpreter-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/facade/pom.xml" />
       </list>
     </option>
   </component>

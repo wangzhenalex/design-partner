@@ -12,6 +12,7 @@
         <module name="decorator" />
         <module name="adapter" />
         <module name="memento" />
+        <module name="facade" />
         <module name="ChatMediator" />
         <module name="prototype" />
         <module name="command" />

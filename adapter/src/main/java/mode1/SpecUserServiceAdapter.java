@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class SpecUserServiceAdapter extends UserServiceImpl implements SpecUserService{
 
+    @Override
     public String findByJId() {
         Map user = super.findById();
         String json = new Gson().toJson(user);
@@ -14,6 +15,7 @@ public class SpecUserServiceAdapter extends UserServiceImpl implements SpecUserS
     }
 
 
+    @Override
     public String findJUsers() {
         List<Map> users = super.findUsers();
         String json = new Gson().toJson(users);

@@ -10,6 +10,7 @@ public class SpecUserServiceAdapter implements SpecUserService {
     public SpecUserServiceAdapter(UserService userService){
         this.userService = userService;
     }
+    @Override
     public String findByJId() {
         Map user = userService.findById();
         String json = new Gson().toJson(user);
@@ -17,6 +18,7 @@ public class SpecUserServiceAdapter implements SpecUserService {
     }
 
 
+    @Override
     public String findJUsers() {
         List<Map> users = userService.findUsers();
         String json = new Gson().toJson(users);

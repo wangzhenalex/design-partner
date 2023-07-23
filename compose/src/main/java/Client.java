@@ -5,8 +5,8 @@ public class Client {
         //组织目录结构
         OssDirectory root = new OssDirectory("/root");
         OssDirectory dir1 = new OssDirectory(root,"/s1");
-        OssDirectory dir14 = new OssDirectory(root,"/s1/s4");
-        OssDirectory dir145 = new OssDirectory(root,"/s1/s4/s5");
+        OssDirectory dir14 = new OssDirectory(dir1,"/s4");
+        OssDirectory dir145 = new OssDirectory(dir14,"/s5");
         OssDirectory dir2 = new OssDirectory(root,"/s2");
         OssDirectory dir3 = new OssDirectory(root,"/s3");
         //组织文件存放

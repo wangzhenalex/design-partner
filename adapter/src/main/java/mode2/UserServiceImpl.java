@@ -3,6 +3,7 @@ package mode2;
 import java.util.*;
 
 public class UserServiceImpl implements UserService {
+    @Override
     public Map findById(){
         Map map = new LinkedHashMap();
         map.put("user_id", 1234);
@@ -10,6 +11,7 @@ public class UserServiceImpl implements UserService {
         return map;
     }
 
+    @Override
     public List<Map> findUsers(){
         List<Map> list = new ArrayList<>();
         for(int i = 0 ; i<=10 ; i++){
